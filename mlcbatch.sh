@@ -10,7 +10,7 @@ $MLC --latency_matrix > latency_results.txt
 $MLC --bandwidth_matrix > bandwidth_results.txt
 
 # Alternatively, you can use --memory_bandwidth_scan for detailed bandwidth across memory
-# $MLC --memory_bandwidth_scan > detailed_bandwidth_results.txt
+./mlc --bandwidth_matrix > detailed_bandwith_results.txt > detailed_bandwidth_results.txt
 
 #physical memory info
 cat /proc/meminfo >physical_memory_results.txt
